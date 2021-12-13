@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 30px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputBoxes{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.inputBox{
+    padding: 5px 5px;
+    min-width: 400px;
+    border-radius: 25px;
+}
+
+.topText, .botText{
+    background-color: transparent;
+    font-size: 40px;
+    font-family: impact;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    position: absolute;
+}
+
+.topText{
+    top: 10px;
+}
+
+.botText{
+    bottom: 30px;
+}
+
+.user_input{
+    padding: 10px 10px;
+}
+
+#submitButton{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    gap: 30px;
+}
+
+.meme{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}   
+
+.deleteButton{
+    margin-top: 10px;
+}
+
+.bigMeme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border:navy 5px solid;
+    border-radius: 15px;
+    height: 30vh;
+}
