@@ -32,8 +32,9 @@ body{
 
 .topText, .botText{
     background-color: transparent;
-    font-size: 40px;
-    font-family: impact;
+    font-size: 8vh;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-shadow: black 0px 0px 10px;
     position: absolute;
@@ -84,5 +85,5 @@ body{
 img{
     border:navy 5px solid;
     border-radius: 15px;
-    height: 30vh;
+    height: 60vh;
 }
